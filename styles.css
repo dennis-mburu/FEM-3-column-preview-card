@@ -1,0 +1,44 @@
+:root{
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+    --transparent-white:  hsla(0, 0%, 100%, 0.75);
+    --very-light-gray: hsl(0, 0%, 95%);
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15%
+}
+
+.container{
+    display: flex;
+    /* border-radius: 500px; */
+}
+
+.card{
+    padding: 2rem;
+    min-height: 60vh;
+    flex: 1
+}
+
+.sedan{
+    background-color: var(--bright-orange);
+}
+
+.suv{
+    background-color: var(--dark-cyan);
+}
+
+.luxury{
+    background-color: var(--very-dark-cyan);
+}
