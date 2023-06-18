@@ -28,7 +28,7 @@ body{
 
 .card{
     padding: 4rem;
-    min-height: 60vh;
+    min-height: 58vh;
     flex: 1;
     max-width: 21rem;
     min-width: 17rem;
@@ -83,4 +83,26 @@ body{
 
 .luxury-btn{
     color: var(--very-dark-cyan)
+}
+
+
+@media (max-width: 768px){
+    body{
+        margin: 0 5%;
+    }
+    .container{
+        flex-direction: column;
+        margin: 4rem auto;
+    }
+    .card{
+        max-width: 32rem;
+    }
+    .sedan{
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 10px;
+    }
+    .luxury{
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+    }
 }
